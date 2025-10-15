@@ -8,3 +8,5 @@
 # 🏗️ CI/CD + GitOps + Security Flow
 
 # 🏗️ Mermaid — Microservice & Infrastructure Deployment Architecture (with AWS + Istio + GitOps)
+
+# 🧱 Microservices List
