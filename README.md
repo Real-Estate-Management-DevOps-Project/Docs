@@ -4,3 +4,7 @@
 #### 🧱 **Entity Relationship (ER) Diagram**
 
 # 🧩 Multi-Database SQL Initialization Script
+
+# 🏗️ CI/CD + GitOps + Security Flow
+
+# 🏗️ Mermaid — Microservice & Infrastructure Deployment Architecture (with AWS + Istio + GitOps)
