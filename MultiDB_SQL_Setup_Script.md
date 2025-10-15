@@ -4,27 +4,13 @@ This SQL script sets up all the databases and tables for the **Property, Lease, 
 Each service maintains its own database schema for scalability and modularity.
 
 ---
-
 ## 💾 Setup Script
 
 ```sql
 create database users_db;
 use users_db;
-
--- CREATE TABLE `users` (
---   `id` BIGINT NOT NULL AUTO_INCREMENT,
---   `username` VARCHAR(255) NOT NULL UNIQUE,
---   `email` VARCHAR(255) NOT NULL UNIQUE,
---   `password_hash` VARCHAR(512) NOT NULL,
---   `role` VARCHAR(50) NOT NULL COMMENT 'e.g., admin, user, auditor',
---   `created_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
---   `updated_at` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
---   PRIMARY KEY (`id`)
--- );
-
 -- =================================================================
--- REVISED DATABASE FOR User/Identity Service (.NET)
--- Suggested Database Name: users_db
+-- DATABASE FOR User/Identity Service (.NET)
 -- =================================================================
 CREATE TABLE `users` (
   `id` BIGINT NOT NULL AUTO_INCREMENT,
